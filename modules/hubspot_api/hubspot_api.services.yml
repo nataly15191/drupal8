@@ -1,0 +1,4 @@
+services:
+  hubspot_api.manager:
+    class: Drupal\hubspot_api\Manager
+    arguments: ['@config.factory']

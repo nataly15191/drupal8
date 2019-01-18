@@ -1,0 +1,9 @@
+hubspot_api.settings:
+  path: 'admin/config/development/hubspot_api'
+  defaults:
+    _form: '\Drupal\hubspot_api\Form\SettingsForm'
+    _title: 'HubSpot API Settings'
+  options:
+    _admin_route: TRUE
+  requirements:
+    _permission: 'administer site configuration'
